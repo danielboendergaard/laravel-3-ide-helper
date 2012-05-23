@@ -9,8 +9,8 @@ class Auth extends Laravel\Auth {}
  */
 class Asset extends Laravel\Asset {}
 class Autoloader extends Laravel\Autoloader {}
-class Bundle extends Laravel\Bundle {}
 class Blade extends Laravel\Blade {}
+class Bundle extends Laravel\Bundle {}
 class Cache extends Laravel\Cache {}
 class Config extends Laravel\Config {}
 class Controller extends Laravel\Routing\Controller {}
@@ -35,6 +35,7 @@ class Lang extends Laravel\Lang {}
 class Log extends Laravel\Log {}
 class Memcached extends Laravel\Memcached {}
 class Paginator extends Laravel\Paginator {}
+class Profiler extends Laravel\Profiling\Profiler {}
 class URL extends Laravel\URL {}
 class Redirect extends Laravel\Redirect {}
 class Redis extends Laravel\Redis {}
