@@ -60,3 +60,4 @@ class Task extends Laravel\CLI\Tasks\Task {}
 class URI extends Laravel\URI {}
 class Validator extends Laravel\Validator {}
 class View extends Laravel\View {}
+?>  
