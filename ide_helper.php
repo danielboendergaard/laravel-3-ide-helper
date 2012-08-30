@@ -22,6 +22,20 @@ class Crypter extends Laravel\Crypter {}
  * @method static array query(string $sql, array $bindings = array())
  */
 class DB extends Laravel\Database {}
+
+/**
+ * @method static array lists(string $name, string $key = null)
+ * @method static \Laravel\Database\Query where(string $column, string $operator = null, mixed $value = null, string $connector = 'AND')
+ * @method static \Laravel\Database\Query where_in(string $column, array $values, string $connector = 'AND', boolean $not = false)
+ * @method static \Laravel\Database\Query with(string $column)
+ * @method static \Laravel\Database\Query order_by(string $column, string $direction = 'asc')
+ * @method static \Laravel\Database\Query take(int $value)
+ * @method static \Laravel\Database\Query select(array $columns = array('*'))
+ * @method static Eloquent find($id)
+ *
+ * @property $created_at
+ * @property $updated_at
+ */
 class Eloquent extends  Laravel\Database\Eloquent\Model {}
 class Event extends Laravel\Event {}
 class File extends Laravel\File {}
