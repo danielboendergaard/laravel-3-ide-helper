@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @method static bool guest()
+ * @method static bool check()
+ */
 class Auth extends Laravel\Auth {}
 
 /**
