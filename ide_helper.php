@@ -1,8 +1,12 @@
 <?php
 
 /**
- * @method static bool guest()
- * @method static bool check()
+ * @method static bool guest() Determine if the user of the application is not logged in.
+ * @method static bool check() Determine if the user is logged in.
+ * @method static User|null user() Get the current user of the application.
+ * @method static User|null retrieve(int $id) Get the a given application user by ID.
+ * @method static bool attempt(array $arguments) Attempt to log a user into the application.
+ * @method static bool login(mixed $token,bool $remember = false) Login the user assigned to the given token.
  */
 class Auth extends Laravel\Auth {}
 
