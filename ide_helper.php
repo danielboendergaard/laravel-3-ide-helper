@@ -85,6 +85,7 @@ class Section extends Laravel\Section {}
  * @method static flash(string $key, $value)
  * @method static forget(string $key)
  * @method static reflash()
+ * @method static flush()
  */
 class Session extends Laravel\Session {}
 class Str extends Laravel\Str {}
