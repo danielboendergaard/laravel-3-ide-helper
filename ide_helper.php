@@ -7,6 +7,14 @@
  * @method static User|null retrieve(int $id) Get the a given application user by ID.
  * @method static bool attempt(array $arguments) Attempt to log a user into the application.
  * @method static bool login(mixed $token,bool $remember = false) Login the user assigned to the given token.
+ * @method static logout() Log the user out of the driver's auth context.
+ * @method static store(string $token) Store a user's token in the session.
+ * @method static remember(string $token) Store a user's token in a long-lived cookie.
+ * @method static string|null recall() Attempt to find a "remember me" cookie for the user.
+ * @method static cookie(string $name, string $value, int $minutes) Store an authentication cookie.
+ * @method static string token() Get session key name used to store the token.
+ * @method static string recaller() Get the name used for the "remember me" cookie.
+ * @method static string name() Get the name of the driver in a storage friendly format.
  */
 class Auth extends Laravel\Auth {}
 
