@@ -72,6 +72,11 @@ class HTML extends Laravel\HTML {}
 class Input extends Laravel\Input {}
 class IoC extends Laravel\IoC {}
 class Lang extends Laravel\Lang {}
+/**
+ * @method static void warning(string $message)
+ * @method static void error(string $message)
+ * @method static void info(string $message)
+ */
 class Log extends Laravel\Log {}
 class Memcached extends Laravel\Memcached {}
 class Paginator extends Laravel\Paginator {}
