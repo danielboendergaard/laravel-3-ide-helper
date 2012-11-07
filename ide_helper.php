@@ -58,6 +58,7 @@ class DB extends Laravel\Database {}
  * @method static \Laravel\Database\Query take(int $value)
  * @method static \Laravel\Database\Query select(array $columns = array('*'))
  * @method static Eloquent find($id)
+ * @method static int count()
  *
  * @property $created_at
  * @property $updated_at
@@ -72,6 +73,7 @@ class HTML extends Laravel\HTML {}
 class Input extends Laravel\Input {}
 class IoC extends Laravel\IoC {}
 class Lang extends Laravel\Lang {}
+
 /**
  * @method static void warning(string $message)
  * @method static void error(string $message)
