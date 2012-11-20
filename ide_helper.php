@@ -44,8 +44,8 @@ class Cookie extends Laravel\Cookie {}
 class Crypter extends Laravel\Crypter {}
 
 /**
- * @method static Laravel\Database\Query table(string $table)
- * @method static array query(string $sql, array $bindings = array())
+ * @method static array query(string $sql, array $bindings = array()) Execute a SQL query and return an array of StdClass objects.
+ * @method static transaction(Closure $callback) Execute a callback wrapped in a database transaction.
  */
 class DB extends Laravel\Database {}
 
