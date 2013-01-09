@@ -57,6 +57,7 @@ class DB extends Laravel\Database {}
  * @method static \Laravel\Database\Query order_by(string $column, string $direction = 'asc')
  * @method static \Laravel\Database\Query take(int $value)
  * @method static \Laravel\Database\Query select(array $columns = array('*'))
+ * @method static \Laravel\Database\Query join(string $table, string $column1, string $operator = null, string $column2 = null, string $type = 'INNER')
  * @method static Eloquent find($id)
  * @method static int count()
  *
