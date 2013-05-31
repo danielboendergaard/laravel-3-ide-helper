@@ -20,3 +20,8 @@ Add the ide_helper.php file to the External Libraries:
 - In PHPStorm right click on External Libraries -> Configure PHP Include Paths...
 - Click on the + icon and choose your previously created folder
 - Click OK
+
+Laravel 4
+---------
+
+For Laravel 4 i recommend using https://github.com/barryvdh/laravel-ide-helper which can generate the ide-helper file automatically.
