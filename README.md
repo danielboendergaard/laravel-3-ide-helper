@@ -24,4 +24,4 @@ Add the ide_helper.php file to the External Libraries:
 Laravel 4
 ---------
 
-For Laravel 4 i recommend using https://github.com/barryvdh/laravel-ide-helper which can generate the ide-helper file automatically.
+For Laravel 4 I recommend using https://github.com/barryvdh/laravel-ide-helper which can generate the ide-helper file automatically.
