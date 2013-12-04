@@ -1,7 +1,7 @@
-laravel-helpers
+Laravel 3 IDE Helper
 ===============
 
-Provides Laravel auto-completion for Jetbrains PHPStorm
+Provides Laravel 3 auto-completion for Jetbrains PHPStorm
 
 The purpose if this repository is to collaborate on keeping the helper file up to date, so please feel free to submit pull requests :)
 
