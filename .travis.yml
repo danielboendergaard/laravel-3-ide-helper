@@ -1,0 +1,14 @@
+language: generic
+script:
+- mkdir plugin/Laravel3/
+- cp ide_helper.php plugin/Laravel3/
+- cd plugin/
+- zip -r laravel3-code-completion-helper-$TRAVIS_TAG.jar *
+deploy:
+  provider: releases
+  api_key:
+    secure: UPhnEz6CE/QkhWkLFJlmv2qheDN0N2UzNjoMHIndp8TtDzl8PjIbRhPCstMbHiKiZsvCN1JLE6Je+l4yvDhFNUcmpKFU6PWvENn+NULssrxTgPQ369ZS9MC+oAsT0lG0iX33nzExtshtGF81f6v8zkO65qclrn/nQJSH0PuypIAwRlQLghjlAH2+ThebxNBBYnMmv7ZYj6AQjC0+3AAANB7dy8RgCHy3jfDiagK4hBwzbICE79cNNx/AMQR1VcvD7Dz/r26kvjCH3LwN1OdUxWe9crt/klk8ATFOjULgnLZG3jSzbzMWAFYzOW5QYoDCMjZHfQ4v0DzSwxmMIV+2VQ3mVPEiq5Fw+YePIl7OQuYMgJQkgZGoKEGLbEeEYlKUleBxabq3G0RFs08I+H+60nwinriKQNfIJffMHUuIFcqOiSj0WgRrSNg3yNzK0wmh8piaXvuJIVDcfNb8vZA0vf2vi7NipgvKxL8ZHDdNpcS3YPNhloTebfA1WG+tML6ENnXjtqAvZjJP48jOlniXCld6t6jTuzFJ78KbNFVM3KBo9zOzlQivhnMnInqMpw5o3bdNfJr13U18fH/1vUZZcmxNCjYqnwSZDBgMfnUxSTzmEPlwFTvhY72OB/A/uKYs2QiZqhXSo5ATbR+1y0tw5c/X9LjQqJAuviHjiqyobWU=
+  file: laravel3-code-completion-helper-$TRAVIS_TAG.jar
+  skip_cleanup: true
+  on:
+    tags: true
