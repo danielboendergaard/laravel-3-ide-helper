@@ -1,7 +1,7 @@
 Laravel 3 IDE Helper
 ===============
 
-[![Build Status](https://travis-ci.org/artspb/laravel-3-ide-helper.svg?branch=master)](https://travis-ci.org/artspb/laravel-3-ide-helper)
+[![Build Status](https://travis-ci.org/danielboendergaard/laravel-3-ide-helper.svg?branch=master)](https://travis-ci.org/danielboendergaard/laravel-3-ide-helper)
 
 Provides Laravel 3 auto-completion for Jetbrains PHPStorm
 
